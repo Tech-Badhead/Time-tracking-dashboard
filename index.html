@@ -10,29 +10,31 @@
 </head>
 <body>
      <!-- Main Dashboard Structure -->
-    <div class="dashboard-container">
-
-        <!-- 1. Profile Card (Left Panel) - Static HTML -->
-        <div class="profile-card">
-            <div class="profile-info">
-                <img src="./img/image-jeremy.png" alt="Jeremy Robson" class="profile-img">
-                <div>
-                    <p>Report for</p>
-                    <h1>Jeremy Robson</h1>
-                </div>
-            </div>
-            
-            <div class="timeframe-nav">
-                <!-- Data attributes (data-timeframe) are key for JavaScript logic -->
-                <button id="daily-btn" data-timeframe="daily">Daily</button>
-                <button id="weekly-btn" data-timeframe="weekly" class="active">Weekly</button>
-                <button id="monthly-btn" data-timeframe="monthly">Monthly</button>
-            </div>
-        </div>
-
-        <!-- 2. Activity Cards Container (Content Grid) - Populated by JS -->
-        <!-- No content here initially; JavaScript creates and injects the activity cards into the grid. -->
-        
-    </div>
+      <main>
+          <div class="dashboard-container">
+      
+              <!-- 1. Profile Card (Left Panel) - Static HTML -->
+              <div class="profile-card">
+                  <div class="profile-info">
+                      <img src="./img/image-jeremy.png" alt="Jeremy Robson" class="profile-img">
+                      <div>
+                          <p>Report for</p>
+                          <h1>Jeremy Robson</h1>
+                      </div>
+                  </div>
+                  
+                  <div class="timeframe-nav">
+                      <!-- Data attributes (data-timeframe) are key for JavaScript logic -->
+                      <button id="daily-btn" data-timeframe="daily">Daily</button>
+                      <button id="weekly-btn" data-timeframe="weekly" class="active">Weekly</button>
+                      <button id="monthly-btn" data-timeframe="monthly">Monthly</button>
+                  </div>
+              </div>
+      
+              <!-- 2. Activity Cards Container (Content Grid) - Populated by JS -->
+              <!-- No content here initially; JavaScript creates and injects the activity cards into the grid. -->
+              
+          </div>
+      </main>
 </body>
 </html>
