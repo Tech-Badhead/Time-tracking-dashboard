@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw)
-- Live Site URL: [Add live site URL here](https://tech-badhead.github.io/Time-tracking-dashboard/)
+- Solution URL: [https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw]
+- Live Site URL: [https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw]
 
 ### Built with
 
